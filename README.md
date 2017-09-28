@@ -1,2 +1,2 @@
 # webpack
-only a test
+this is a unity webpack package.
