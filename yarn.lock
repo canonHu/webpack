@@ -2107,6 +2107,10 @@ lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4:
   version "4.17.4"
   resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
+lodash@^4.17.5:
+  version "4.17.5"
+  resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
+
 loglevel@^1.4.1:
   version "1.5.0"
   resolved "http://registry.npm.taobao.org/loglevel/download/loglevel-1.5.0.tgz#3863984a2c326b986fbb965f378758a6dc8a4324"
@@ -3837,6 +3841,12 @@ webpack-dev-server@^2.9.1:
     supports-color "^4.2.1"
     webpack-dev-middleware "^1.11.0"
     yargs "^6.6.0"
+
+webpack-merge@^4.1.2:
+  version "4.1.2"
+  resolved "http://registry.npm.taobao.org/webpack-merge/download/webpack-merge-4.1.2.tgz#5d372dddd3e1e5f8874f5bf5a8e929db09feb216"
+  dependencies:
+    lodash "^4.17.5"
 
 webpack-sources@^1.0.1:
   version "1.0.1"
