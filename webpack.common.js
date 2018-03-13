@@ -4,7 +4,11 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
     entry: {
-        app: './src/index.js'
+        app: './src/index.js',
+        vendor: [
+            'lodash'
+        ]
+        // another: './src/another-module.js'
     },
 
     plugins: [
@@ -52,7 +56,7 @@ module.exports = {
     },
 
     output: {
-        filename: '[name].bundle.js',
+        filename: '[name].[chunkhash].js',
         path: path.resolve(__dirname, 'dist')
     }
 };
